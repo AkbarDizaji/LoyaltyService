@@ -1,0 +1,17 @@
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\jahan-system\\source\\repos\\loyaltyservice\\loyaltyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\jahan-system\\source\\repos\\loyaltyservice\\loyaltyservice\\middlewares\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\middlewares\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\jahan-system\\source\\repos\\loyaltyservice\\loyaltyservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\jahan-system\\source\\repos\\loyaltyservice\\loyaltyservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\jahan-system\\source\\repos\\loyaltyservice\\loyaltyservice\\middlewares\\requestcachingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\middlewares\\requestcachingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\jahan-system\\source\\repos\\loyaltyservice\\loyaltyservice\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\jahan-system\\source\\repos\\loyaltyservice\\loyaltyservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|c:\\users\\jahan-system\\source\\repos\\loyaltyservice\\loyaltyservice\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1C174-0BBF-4C68-AB3B-692A5A628E60}|LoyaltyService\\LoyaltyService.csproj|solutionrelative:loyaltyservice\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C846C7A-EE89-4A26-938E-973FF861B186}|Domain\\Domain.csproj|c:\\users\\jahan-system\\source\\repos\\loyaltyservice\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C846C7A-EE89-4A26-938E-973FF861B186}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C846C7A-EE89-4A26-938E-973FF861B186}|Domain\\Domain.csproj|c:\\users\\jahan-system\\source\\repos\\loyaltyservice\\domain\\pointtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C846C7A-EE89-4A26-938E-973FF861B186}|Domain\\Domain.csproj|solutionrelative:domain\\pointtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestResponseLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\Middlewares\\RequestResponseLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Middlewares\\RequestResponseLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\Middlewares\\RequestResponseLoggingMiddleware.cs*",
+              "RelativeToolTip": "LoyaltyService\\Middlewares\\RequestResponseLoggingMiddleware.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T05:39:47.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\appsettings.json",
+              "RelativeDocumentMoniker": "LoyaltyService\\appsettings.json",
+              "ToolTip": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\appsettings.json",
+              "RelativeToolTip": "LoyaltyService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-21T15:18:11.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "LoyaltyService\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\appsettings.Development.json",
+              "RelativeToolTip": "LoyaltyService\\appsettings.Development.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-21T16:05:21.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\Program.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Program.cs",
+              "ToolTip": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\Program.cs",
+              "RelativeToolTip": "LoyaltyService\\Program.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAADwvy8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:49:54.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestCachingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\Middlewares\\RequestCachingMiddleware.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Middlewares\\RequestCachingMiddleware.cs",
+              "ToolTip": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\Middlewares\\RequestCachingMiddleware.cs",
+              "RelativeToolTip": "LoyaltyService\\Middlewares\\RequestCachingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T04:01:59.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "LoyaltyService\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAApwEUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T04:00:54.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\Dockerfile",
+              "RelativeDocumentMoniker": "LoyaltyService\\Dockerfile",
+              "ToolTip": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\Dockerfile",
+              "RelativeToolTip": "LoyaltyService\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-21T18:50:02.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "LoyaltyService\\GlobalUsing.cs",
+              "ToolTip": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\LoyaltyService\\GlobalUsing.cs",
+              "RelativeToolTip": "LoyaltyService\\GlobalUsing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T16:52:55.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T16:45:27.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PointTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\Domain\\PointTransaction.cs",
+              "RelativeDocumentMoniker": "Domain\\PointTransaction.cs",
+              "ToolTip": "C:\\Users\\JAHAN-SYSTEM\\source\\repos\\LoyaltyService\\Domain\\PointTransaction.cs",
+              "RelativeToolTip": "Domain\\PointTransaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T16:45:37.134Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+2024-06-22 06:19:14.666 +02:00 [INF] Request: GET /Users/get-token 
+2024-06-22 06:19:14.725 +02:00 [INF] Attempting to get token
+2024-06-22 06:19:14.726 +02:00 [INF] http://keycloak:8080/realms/public/protocol/openid-connect/token
+2024-06-22 06:19:16.345 +02:00 [ERR] An unhandled exception occurred.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 503 (Service Unavailable).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at LoyaltyService.Controllers.UsersController.GetToken() in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Controllers\UsersController.cs:line 88
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at LoyaltyService.Middlewares.PrometheusMiddleware.InvokeAsync(HttpContext context) in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Middlewares\PrometheusMiddleware.cs:line 27
+   at LoyaltyService.Middlewares.GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 15
+2024-06-22 06:19:16.391 +02:00 [INF] Response: 500 {"IsSuccess":false,"Value":null,"Error":"An internal server error occurred."}
+2024-06-22 06:30:58.850 +02:00 [INF] Request: GET /Users/get-token 
+2024-06-22 06:30:58.877 +02:00 [INF] Attempting to get token
+2024-06-22 06:30:58.880 +02:00 [INF] http://localhost:8080/realms//realms/public/protocol/openid-connect/token
+2024-06-22 06:30:58.986 +02:00 [ERR] An unhandled exception occurred.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at LoyaltyService.Controllers.UsersController.GetToken() in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Controllers\UsersController.cs:line 92
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at LoyaltyService.Middlewares.PrometheusMiddleware.InvokeAsync(HttpContext context) in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Middlewares\PrometheusMiddleware.cs:line 27
+   at LoyaltyService.Middlewares.GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 15
+2024-06-22 06:30:59.020 +02:00 [INF] Response: 500 {"IsSuccess":false,"Value":null,"Error":"An internal server error occurred."}
+2024-06-22 06:32:10.725 +02:00 [INF] Request: GET /Users/get-token 
+2024-06-22 06:32:10.771 +02:00 [INF] Attempting to get token
+2024-06-22 06:32:10.773 +02:00 [INF] http://localhost:8080/realms//realms/public/protocol/openid-connect/token
+2024-06-22 06:32:10.883 +02:00 [ERR] An unhandled exception occurred.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at LoyaltyService.Controllers.UsersController.GetToken() in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Controllers\UsersController.cs:line 92
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at LoyaltyService.Middlewares.PrometheusMiddleware.InvokeAsync(HttpContext context) in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Middlewares\PrometheusMiddleware.cs:line 27
+   at LoyaltyService.Middlewares.GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 15
+2024-06-22 06:32:10.963 +02:00 [INF] Response: 500 {"IsSuccess":false,"Value":null,"Error":"An internal server error occurred."}
+2024-06-22 06:33:20.788 +02:00 [INF] Request: GET /Users/get-token 
+2024-06-22 06:33:20.815 +02:00 [INF] Attempting to get token
+2024-06-22 06:33:20.816 +02:00 [INF] http://localhost:8080/realms//realms/public/protocol/openid-connect/token
+2024-06-22 06:33:20.910 +02:00 [ERR] An unhandled exception occurred.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at LoyaltyService.Controllers.UsersController.GetToken() in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Controllers\UsersController.cs:line 92
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at LoyaltyService.Middlewares.PrometheusMiddleware.InvokeAsync(HttpContext context) in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Middlewares\PrometheusMiddleware.cs:line 27
+   at LoyaltyService.Middlewares.GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 15
+2024-06-22 06:33:20.937 +02:00 [INF] Response: 500 {"IsSuccess":false,"Value":null,"Error":"An internal server error occurred."}
+2024-06-22 06:34:36.445 +02:00 [INF] Request: GET /Users/get-token 
+2024-06-22 06:34:40.666 +02:00 [INF] Attempting to get token
+2024-06-22 06:35:27.118 +02:00 [INF] Request: GET /Users/get-token 
+2024-06-22 06:35:30.183 +02:00 [INF] Attempting to get token
+2024-06-22 06:35:30.184 +02:00 [INF] http://localhost:8080/realms/realms/public/protocol/openid-connect/token
+2024-06-22 06:35:30.300 +02:00 [ERR] An unhandled exception occurred.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at LoyaltyService.Controllers.UsersController.GetToken() in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Controllers\UsersController.cs:line 92
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at LoyaltyService.Middlewares.PrometheusMiddleware.InvokeAsync(HttpContext context) in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Middlewares\PrometheusMiddleware.cs:line 27
+   at LoyaltyService.Middlewares.GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\LoyaltyService\Middlewares\GlobalExceptionHandlerMiddleware.cs:line 15
+2024-06-22 06:35:30.336 +02:00 [INF] Response: 500 {"IsSuccess":false,"Value":null,"Error":"An internal server error occurred."}
+2024-06-22 06:35:32.909 +02:00 [INF] Request: GET /Users/get-token 
+2024-06-22 06:35:34.640 +02:00 [INF] Attempting to get token
+2024-06-22 06:36:16.773 +02:00 [INF] http://localhost:8080/realms/realms/public/protocol/openid-connect/token
+2024-06-22 06:37:16.307 +02:00 [INF] Request: GET /Users/get-token 
+2024-06-22 06:37:18.352 +02:00 [INF] Attempting to get token
+2024-06-22 06:37:18.353 +02:00 [INF] http://localhost:8080/realms/public/protocol/openid-connect/token
+2024-06-22 06:37:18.382 +02:00 [INF] Response: 200 {"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJYWXdWcC1VOUFXZThodWYtZ2lMeEpYbGF5azl1SWpvNmFxWmJTRjlIZG1VIn0.eyJleHAiOjE3MTkwMzEzMzgsImlhdCI6MTcxOTAzMTAzOCwianRpIjoiZGY4MmIxMmItNzc0ZC00NDIwLTlmZTAtMjU4ODVjMTA3NDVmIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9wdWJsaWMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZjU2YmM0MmYtMDNhYi00YTVhLThkNzQtNDI0ZTQxOTI5MTkxIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiTG95YWwiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtcHVibGljIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJMb3lhbCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRIb3N0IjoiMTcyLjI1LjAuMSIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1sb3lhbCIsImNsaWVudEFkZHJlc3MiOiIxNzIuMjUuMC4xIiwiY2xpZW50X2lkIjoiTG95YWwifQ.k_oNVkDVCUSzYPnkWjxz9Qa7tzySGfIIQ_pZmECt2DLkgbt3B2wc5He41pwC7BQ8CIn1RdZR-DYa1ToCSnp22octR-SJqb6C8-PVlwmVOQTMM-tCAA5lvJLSjp0WRYFDnMeaaYSfRjvmxtYZnFsClS2_IOGPOl3RhqurhVhqumaWt8Jx35H-f-dQYyqihko8ie_b6QvS-9s0k6CBgbpwZoYDfwG6XiVx4M6jM0EIkUgj4DQAn0L7qv1ABJQxbz5Ya_pevviD5TtQHaZgur1lPmerfkLO07GAfh8GHOJk0FM7sVN6gIN6EJkU-Gev_AgoJTs7ngDtQCnbMjZAJyh-CA","expires_in":300,"refresh_expires_in":0,"token_type":"Bearer","not-before-policy":0,"scope":"profile email"}
+2024-06-22 06:43:08.216 +02:00 [INF] Request: GET /Users/get-token 
+2024-06-22 06:43:14.439 +02:00 [INF] Attempting to get token
+2024-06-22 06:43:14.440 +02:00 [INF] http://localhost:8080/realms/public/protocol/openid-connect/token
+2024-06-22 06:43:14.481 +02:00 [INF] Response: 200 {"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJYWXdWcC1VOUFXZThodWYtZ2lMeEpYbGF5azl1SWpvNmFxWmJTRjlIZG1VIn0.eyJleHAiOjE3MTkwMzE2OTQsImlhdCI6MTcxOTAzMTM5NCwianRpIjoiNWFhN2Y3OGEtZDNmNC00MjZkLThmMmEtOWZkNThkYjZmMGI4IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9wdWJsaWMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZjU2YmM0MmYtMDNhYi00YTVhLThkNzQtNDI0ZTQxOTI5MTkxIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiTG95YWwiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtcHVibGljIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJMb3lhbCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRIb3N0IjoiMTcyLjI1LjAuMSIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1sb3lhbCIsImNsaWVudEFkZHJlc3MiOiIxNzIuMjUuMC4xIiwiY2xpZW50X2lkIjoiTG95YWwifQ.mY8a-cGy7yxUGhLVetWc31Vq4tggcTtzSttVTZajhjrbpz0ito4p-x08m_xe_2HDbSromh6-ngVEFWKKMc7fYRSEGg6t7sl7m14DaBm1FEiA-Th8ZoBJv587-D1WgfowLUuS54V2WKnnYqmTfb9ZDgFxVYMchUoaDeeu-Mx4vlhYDQ_prqnkg7h75BScsAVHqhJjZc_vitp0Qxputb0RQdrfcuW03qcfnnBLMheZo5xvQIZroj_bUXNzWRAyi6f7DGTnZ3TSeh0VO8x5cT5BSWblQcaSfkD5tGq79fXOdCI5OLapuXKW7QCYE8gH1wkj6BNeff8PFg4SPHsL0xylHA","expires_in":300,"refresh_expires_in":0,"token_type":"Bearer","not-before-policy":0,"scope":"profile email"}
+2024-06-22 06:46:24.214 +02:00 [INF] Request: GET /Users/get-token 
+2024-06-22 06:46:24.264 +02:00 [INF] Attempting to get token
+2024-06-22 06:46:24.267 +02:00 [INF] http://localhost:8080/realms/public/protocol/openid-connect/token
+2024-06-22 06:46:24.316 +02:00 [INF] Response: 200 {"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJYWXdWcC1VOUFXZThodWYtZ2lMeEpYbGF5azl1SWpvNmFxWmJTRjlIZG1VIn0.eyJleHAiOjE3MTkwMzE4ODQsImlhdCI6MTcxOTAzMTU4NCwianRpIjoiZTcxMjdkOTMtMzU0ZS00NThhLTkxNDktMjZlNTRmOGMzYmQ3IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9wdWJsaWMiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZjU2YmM0MmYtMDNhYi00YTVhLThkNzQtNDI0ZTQxOTI5MTkxIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiTG95YWwiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtcHVibGljIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJMb3lhbCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRIb3N0IjoiMTcyLjI1LjAuMSIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1sb3lhbCIsImNsaWVudEFkZHJlc3MiOiIxNzIuMjUuMC4xIiwiY2xpZW50X2lkIjoiTG95YWwifQ.z4Va4hi39bAuK8uEzMkq-LRvZwi25hYJ-if5gjRn6ApBOZNaxkxStmTQ0AWxhofZ26QpBdjcFCOYrrMCJecDgADxlsczWlYvPgw9VPurRIeuz_fb2yEoeJFyJQNkzixgQh0NN1Zr7sCwoDI9gsc_cEgXeggcyOLssSn7yS3xgsg9fk0o6W_yt1XzCBMVvUJ6Xug_snPXNXzdvo-qm_Om9WMcSELHfI1bhuZYa5D-PMBpTmr8bowO2ENrqW-YEMxc7PHoKtRwVvDwaPTNuPXkZNngej-zQHhhct4bvVfHtRtGvylBEyJb7R94S_MyAyjs1IPkwE5HMn7kOzGYa9_HMg","expires_in":300,"refresh_expires_in":0,"token_type":"Bearer","not-before-policy":0,"scope":"profile email"}
+2024-06-22 06:46:42.391 +02:00 [INF] Request: GET /Users/1/points 
+2024-06-22 06:46:42.413 +02:00 [INF] Retrieving points for user 1
+2024-06-22 06:46:44.181 +02:00 [INF] Successfully retrieved 26 points for user 1
+2024-06-22 06:46:44.191 +02:00 [INF] Response: 200 26

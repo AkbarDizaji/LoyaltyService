@@ -1,0 +1,11 @@
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\Domain\obj\Debug\net8.0\ref\Domain.dll

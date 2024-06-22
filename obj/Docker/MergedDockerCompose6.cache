@@ -1,0 +1,103 @@
+name: dockercompose4149688370149299745
+services:
+  keycloak:
+    command:
+      - start
+    depends_on:
+      postgres:
+        condition: service_started
+        required: true
+    environment:
+      KC_DB: postgres
+      KC_DB_PASSWORD: your_strong_password
+      KC_DB_URL: jdbc:postgresql://postgres/keycloak
+      KC_DB_USERNAME: keycloak
+      KC_HEALTH_ENABLED: "true"
+      KC_HOSTNAME: localhost
+      KC_HOSTNAME_PORT: "8080"
+      KC_HOSTNAME_STRICT_BACKCHANNEL: "false"
+      KC_HOSTNAME_STRICT_HTTPS: "false"
+      KC_HTTP_ENABLED: "true"
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: your_admin_password
+    image: quay.io/keycloak/keycloak:latest
+    networks:
+      kc_network: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: bind
+        source: C:\Users\JAHAN-SYSTEM\source\repos\LoyaltyService\providers
+        target: /opt/keycloak/providers
+        bind:
+          create_host_path: true
+  loyaltyservice:
+    depends_on:
+      redis:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: loyaltyservice:dev
+    networks:
+      kc_network: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "80"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\JAHAN-SYSTEM\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\JAHAN-SYSTEM\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  postgres:
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_PASSWORD: your_strong_password
+      POSTGRES_USER: keycloak
+    image: postgres:latest
+    networks:
+      kc_network: null
+    volumes:
+      - type: volume
+        source: postgres_data
+        target: /var/lib/postgresql/data
+        volume: {}
+  redis:
+    image: redis:latest
+    networks:
+      kc_network: null
+    ports:
+      - mode: ingress
+        target: 6379
+        published: "6379"
+        protocol: tcp
+networks:
+  kc_network:
+    name: dockercompose4149688370149299745_kc_network
+    driver: bridge
+volumes:
+  postgres_data:
+    name: dockercompose4149688370149299745_postgres_data
+    driver: local
